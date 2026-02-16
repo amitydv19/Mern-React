@@ -1,0 +1,20 @@
+<-- If we need diffrent name on Amit Ray so we User Props-->
+//UserCard.jsx
+
+const UserCard = (props) => {
+  return (
+    <div className='user-container'>
+    <p id='user-name'>{props.name}</p>
+    <img id='user-img' src={amit} alt='Amit'></img>
+  <p
+    id='user-desc'> Description of Amit Ray</p>
+  </div>
+  )
+}
+
+//App.jsx
+<div className="container">
+      <UserCard name="Amit Ray"/>
+      <UserCard name="Amit Kumar"/>
+      <UserCard name="Amit Yadav"/>
+    </div>
