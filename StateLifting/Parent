@@ -1,0 +1,14 @@
+import React, { useState } from 'react'
+import Statelifting from './components/statelifting'
+
+const App = () => {
+  const [name, setName] = useState('');
+  return (
+    <div>
+      <Statelifting name={name} setName={setName}/>
+      <p>Value in the parent: {name}</p>
+    </div>
+  )
+}
+
+export default App
