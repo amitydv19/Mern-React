@@ -1,0 +1,13 @@
+import React from 'react'
+
+const statelifting = (props) => {
+  return (
+    <div>
+        <input type='text' onChange={(e)=> props.setName(e.target.value)} />
+        <p>Value inside the box: {props.name} </p>
+    </div>
+    
+  )
+}
+
+export default statelifting
