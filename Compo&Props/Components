@@ -11,6 +11,7 @@ const UserCard = () => {
     id='user-desc'> Description of Amit Ray</p>
   </div>
   )
+
 }
 
 export default UserCard
