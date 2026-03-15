@@ -12,6 +12,7 @@ const UserCard = (props) => {
   )
 }
 
+
 //App.jsx
 <div className="container">
       <UserCard name="Amit Ray"/>
